@@ -1,2 +1,2 @@
 # TableViewWithMVP
-Пример реализации приложения по архитектуре MVP и TableView
+Пример реализации приложения по архитектуре MVP и UITableView
