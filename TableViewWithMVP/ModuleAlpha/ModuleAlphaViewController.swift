@@ -33,7 +33,6 @@ final class ModuleAlphaViewController: UIViewController {
     override func viewDidLoad() {
         title = presenter.title
         navigationController?.navigationBar.prefersLargeTitles = true
-//        navigationItem.largeTitleDisplayMode = .always
         presenter.viewDidLoad()
     }    
 }

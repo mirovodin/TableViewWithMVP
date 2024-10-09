@@ -59,16 +59,7 @@ final class ModuleAlphaTableViewCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    override func prepareForReuse() {
-        super.prepareForReuse()
-        // Вызывается при извлечении ячейки из буфера
-    }
-    
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
-    
+
     func update(with model: Model) {
         titleLabel.text = model.title
         valueLabel.text = model.value
