@@ -14,7 +14,7 @@ final class ModuleAlphaTableViewCell: UITableViewCell {
         let isChecked: Bool
     }
     
-    private lazy var titleLabel: UILabel = {
+    private var titleLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 1
         label.textColor = .label
@@ -22,7 +22,7 @@ final class ModuleAlphaTableViewCell: UITableViewCell {
         return label
     }()
 
-    private lazy var valueLabel: UILabel = {
+    private var valueLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
         label.textColor = .secondaryLabel
@@ -30,7 +30,7 @@ final class ModuleAlphaTableViewCell: UITableViewCell {
         return label
     }()
   
-    private lazy var stack: UIStackView = {
+    private var stack: UIStackView = {
         let view = UIStackView()
         view.axis = .vertical
         view.distribution = .fill
@@ -38,7 +38,7 @@ final class ModuleAlphaTableViewCell: UITableViewCell {
         return view
     }()
     
-    private lazy var line: UIView = {
+    private var line: UIView = {
         let view = UIView()
         view.backgroundColor = .systemGroupedBackground
         return view
